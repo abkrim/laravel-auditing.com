@@ -22,7 +22,7 @@ Article::find($id)->update($data);
 ### Console/CLI and Jobs
 Eloquent events fired from a **Job** or from the **console** (i.e. migrations, tests, commands, Tinker, ...), **WILL NOT** be audited by default.
 
-Please refer to the [General Configuration](general-configuration) for more information. 
+Please refer to the [General Configuration](https://laravel-auditing.com/guide/general-configuration.html) for more information. 
 
 ## Attributes are considered modified, when they're not
 False positives cause Audit records to be created.
